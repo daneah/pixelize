@@ -15,5 +15,6 @@ $ invoke pixelize --output-width=2048 --sampling-factor=32 someimage.jpg
 
 ## Example
 
-<img src="in.jpg" width="250" />
-<img src="out.jpg" width="250" />
+|In|Out|
+|--|---|
+|<img src="in.jpg" width="250" />|<img src="out.jpg" width="250" />|
