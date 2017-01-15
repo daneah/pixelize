@@ -44,6 +44,6 @@ def pixelize(ctx, infile, output_height=0, output_width=0, output_size=512, samp
     filename_parts = os.path.basename(infile).split('.')
     filename_parts.insert(-1, 'processed')
 
-    processed_image_filename = '.'.join(filename_parts)
+    processed_image_filename = os.path.join(os.path.dirname(infile), '.'.join(filename_parts))
 
     misc.imsave(processed_image_filename, image)
