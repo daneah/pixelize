@@ -18,7 +18,7 @@ from invoke import task
         'sampling_factor': 'How much to "pixelate" the image, best as a power of 2 for output quality',
     }
 )
-def pixelate(ctx, infile, output_height=0, output_width=0, output_size=512, sampling_factor=16):
+def pixelize(ctx, infile, output_height=0, output_width=0, output_size=512, sampling_factor=16):
     """Pixelate an imput image into glitch art for use as an identicon or other avatar"""
 
     if not os.path.exists(infile):
