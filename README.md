@@ -12,3 +12,11 @@ and fork-friendliness to extend the tool at your leisure.
 ```shell
 $ invoke pixelize --output-width=2048 --sampling-factor=32 someimage.jpg
 ```
+
+## Example
+
+![input image][input]
+![output image][output]
+
+[input]: in.jpg
+[output]: out.jpg
