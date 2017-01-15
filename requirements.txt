@@ -1,4 +1,3 @@
 invoke
 pillow
-requests
 scipy
