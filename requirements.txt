@@ -1,0 +1,4 @@
+invoke
+pillow
+requests
+scipy
