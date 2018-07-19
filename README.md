@@ -13,8 +13,11 @@ and fork-friendliness to extend the tool at your leisure.
 $ invoke pixelize --output-width=2048 --sampling-factor=32 someimage.jpg
 ```
 
+See all options with `invoke --help pixelize`
+
 ## Example
 
  In | Out
 --- | ---
-<img src="in.jpg" width="250" /> | <img src="out.jpg" width="250" />
+<img src="examples/one.in.jpg" width="250" /> | <img src="examples/one.out.jpg" width="250" />
+<img src="examples/two.in.jpg" width="250" /> | <img src="examples/two.out.jpg" width="250" />
