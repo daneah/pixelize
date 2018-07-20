@@ -21,3 +21,4 @@ See all options with `invoke --help pixelize`
 --- | ---
 <img src="examples/one.in.jpg" width="250" /> | <img src="examples/one.out.jpg" width="250" />
 <img src="examples/two.in.jpg" width="250" /> | <img src="examples/two.out.jpg" width="250" />
+<img src="examples/three.in.jpg" width="250" /> | <img src="examples/three.out.jpg" width="250" />

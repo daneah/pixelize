@@ -26,7 +26,10 @@ def pixelize(ctx, infile, output_height=0, output_width=0, output_size=512, samp
 
     image = misc.imread(infile)
 
-    orig_height, orig_width, num_channels = image.shape
+    try:
+        orig_height, orig_width, num_channels = image.shape
+    except:
+        orig_height, orig_width = image.shape
 
     if output_height and not output_width:
         output_width = int(orig_width * (orig_height / output_height))
