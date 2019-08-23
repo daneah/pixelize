@@ -1,3 +1,3 @@
-invoke
-pillow
-scipy
+invoke>=1.3.0
+numpy>=1.17.0
+Pillow>=6.1.0
